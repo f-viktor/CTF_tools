@@ -18,7 +18,7 @@ address[2]=(char)a;
 
 //int pid = fork();
 //	if (pid==0) {
-      		execl("./tiny_easy", address, (char *) 0);
+      		execl("./binary", address, (char *) 0);
 //		}
 	printf("| %x |",*address);
 }}}}
